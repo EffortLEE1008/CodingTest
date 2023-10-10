@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\브루투포스">
+      <UniqueIdentifier>{19076a1a-a96f-4cd0-88bc-bcb511f16b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백트래킹">
+      <UniqueIdentifier>{cb916fe4-6ae0-435b-a69f-2326c10166af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NC백엔드">
+      <UniqueIdentifier>{36f28749-75c7-43a9-a001-0b5a96ed4b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\백준그래프이론">
+      <UniqueIdentifier>{c78bdb75-8db0-416f-8dd7-76db11266a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\다이나믹프로그래밍">
+      <UniqueIdentifier>{1ad02060-6411-4a2a-9153-cbffe0d53313}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="baekjoon2606.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CodingTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2231분해합.cpp">
+      <Filter>소스 파일\브루투포스</Filter>
+    </ClCompile>
+    <ClCompile Include="1018 체스판.cpp">
+      <Filter>소스 파일\브루투포스</Filter>
+    </ClCompile>
+    <ClCompile Include="15649N과M.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="1904_01타일.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="no1.cpp">
+      <Filter>소스 파일\NC백엔드</Filter>
+    </ClCompile>
+    <ClCompile Include="no2.cpp">
+      <Filter>소스 파일\NC백엔드</Filter>
+    </ClCompile>
+    <ClCompile Include="1260 DFS와BFS.cpp">
+      <Filter>소스 파일\브루투포스</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_no1.cpp">
+      <Filter>소스 파일\NC백엔드</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_no2.cpp">
+      <Filter>소스 파일\NC백엔드</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_no3.cpp">
+      <Filter>소스 파일\NC백엔드</Filter>
+    </ClCompile>
+    <ClCompile Include="순열.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="백준_2178미로탐색.cpp">
+      <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="2606바이러스.cpp">
+      <Filter>소스 파일\백준그래프이론</Filter>
+    </ClCompile>
+    <ClCompile Include="2667단지번호붙이기.cpp">
+      <Filter>소스 파일\백준그래프이론</Filter>
+    </ClCompile>
+    <ClCompile Include="1149RGB거리.cpp">
+      <Filter>소스 파일\백준그래프이론</Filter>
+    </ClCompile>
+    <ClCompile Include="11726_2xn타일링.cpp">
+      <Filter>소스 파일\다이나믹프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="2775부녀회장.cpp">
+      <Filter>소스 파일\다이나믹프로그래밍</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
