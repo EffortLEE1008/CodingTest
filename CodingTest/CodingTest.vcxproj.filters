@@ -19,14 +19,14 @@
     <Filter Include="소스 파일\백트래킹">
       <UniqueIdentifier>{cb916fe4-6ae0-435b-a69f-2326c10166af}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\NC백엔드">
-      <UniqueIdentifier>{36f28749-75c7-43a9-a001-0b5a96ed4b85}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\백준그래프이론">
       <UniqueIdentifier>{c78bdb75-8db0-416f-8dd7-76db11266a6f}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\다이나믹프로그래밍">
       <UniqueIdentifier>{1ad02060-6411-4a2a-9153-cbffe0d53313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\기초알고리즘">
+      <UniqueIdentifier>{694ca481-00d5-4492-8406-d21f89f0c2c5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -48,23 +48,8 @@
     <ClCompile Include="1904_01타일.cpp">
       <Filter>소스 파일\백트래킹</Filter>
     </ClCompile>
-    <ClCompile Include="no1.cpp">
-      <Filter>소스 파일\NC백엔드</Filter>
-    </ClCompile>
-    <ClCompile Include="no2.cpp">
-      <Filter>소스 파일\NC백엔드</Filter>
-    </ClCompile>
     <ClCompile Include="1260 DFS와BFS.cpp">
       <Filter>소스 파일\브루투포스</Filter>
-    </ClCompile>
-    <ClCompile Include="AI_no1.cpp">
-      <Filter>소스 파일\NC백엔드</Filter>
-    </ClCompile>
-    <ClCompile Include="AI_no2.cpp">
-      <Filter>소스 파일\NC백엔드</Filter>
-    </ClCompile>
-    <ClCompile Include="AI_no3.cpp">
-      <Filter>소스 파일\NC백엔드</Filter>
     </ClCompile>
     <ClCompile Include="순열.cpp">
       <Filter>소스 파일\백트래킹</Filter>
@@ -88,7 +73,10 @@
       <Filter>소스 파일\다이나믹프로그래밍</Filter>
     </ClCompile>
     <ClCompile Include="Union-find(합집합찾기).cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\기초알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="크루스칼.cpp">
+      <Filter>소스 파일\기초알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

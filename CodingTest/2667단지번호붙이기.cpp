@@ -15,6 +15,7 @@ bool visited[MAX][MAX];
 int main() {
 	
 	int N = 7;
+	cin >> N;
 
 	vector<pair<int, int>> move_dir;
 	vector<int> v_cnt;
@@ -25,7 +26,6 @@ int main() {
 	move_dir.push_back(make_pair(0, 1));
 	move_dir.push_back(make_pair(-1, 0));
 	move_dir.push_back(make_pair(0, -1));
-
 
 	for (int i = 0; i < MAX; i++) {
 		for (int j = 0; j < MAX; j++) {
@@ -38,41 +38,56 @@ int main() {
 		}
 	}
 
+	string s = " ";
 
+	for (int k = 0; k < N; k++) {
+		cin >> s;
 
-	string s = "0110100";
+		for (int i = 0; i < N; i++) {
 
-	for (int i = 0; i < s.length(); i++) {
-		arr[0][i] = s[i]-'0';
+			arr[k][i] = s[i] - '0';
+
+		}
+
 	}
 
-	s = "0110101";
-	for (int i = 0; i < s.length(); i++) {
-		arr[1][i] = s[i] - '0';
-	}
+	
 
-	s = "1110101";
-	for (int i = 0; i < s.length(); i++) {
-		arr[2][i] = s[i] - '0';
-	}
 
-	s = "0000111";
-	for (int i = 0; i < s.length(); i++) {
-		arr[3][i] = s[i] - '0';
-	}
 
-	s = "0100000";
-	for (int i = 0; i < s.length(); i++) {
-		arr[4][i] = s[i] - '0';
-	}
-	s = "0111110";
-	for (int i = 0; i < s.length(); i++) {
-		arr[5][i] = s[i] - '0';
-	}
-	s = "0111000";
-	for (int i = 0; i < s.length(); i++) {
-		arr[6][i] = s[i] - '0';
-	}
+	//string s = "0110100";
+
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[0][i] = s[i]-'0';
+	//}
+
+	//s = "0110101";
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[1][i] = s[i] - '0';
+	//}
+
+	//s = "1110101";
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[2][i] = s[i] - '0';
+	//}
+
+	//s = "0000111";
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[3][i] = s[i] - '0';
+	//}
+
+	//s = "0100000";
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[4][i] = s[i] - '0';
+	//}
+	//s = "0111110";
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[5][i] = s[i] - '0';
+	//}
+	//s = "0111000";
+	//for (int i = 0; i < s.length(); i++) {
+	//	arr[6][i] = s[i] - '0';
+	//}
 
 
 
