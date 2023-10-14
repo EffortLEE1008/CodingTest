@@ -75,8 +75,14 @@
     <ClCompile Include="Union-find(합집합찾기).cpp">
       <Filter>소스 파일\기초알고리즘</Filter>
     </ClCompile>
-    <ClCompile Include="크루스칼.cpp">
+    <ClCompile Include="1922_크루스칼.cpp">
       <Filter>소스 파일\기초알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="1932정수삼각형.cpp">
+      <Filter>소스 파일\다이나믹프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="15650N과M(2).cpp">
+      <Filter>소스 파일\백트래킹</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
