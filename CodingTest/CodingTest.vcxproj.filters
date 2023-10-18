@@ -28,6 +28,12 @@
     <Filter Include="소스 파일\기초알고리즘">
       <UniqueIdentifier>{694ca481-00d5-4492-8406-d21f89f0c2c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\삼성SW역량평가">
+      <UniqueIdentifier>{75394195-7d2a-4bbf-a8de-3eea61c928e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BFS_DFS 필수문제">
+      <UniqueIdentifier>{cb61b767-df01-4ba7-ad46-32453a1c5355}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="baekjoon2606.cpp">
@@ -83,6 +89,9 @@
     </ClCompile>
     <ClCompile Include="15650N과M(2).cpp">
       <Filter>소스 파일\백트래킹</Filter>
+    </ClCompile>
+    <ClCompile Include="2644촌수계산.cpp">
+      <Filter>소스 파일\BFS_DFS 필수문제</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
