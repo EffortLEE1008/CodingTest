@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\BFS_DFS 필수문제">
       <UniqueIdentifier>{cb61b767-df01-4ba7-ad46-32453a1c5355}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\코테전복습">
+      <UniqueIdentifier>{92724575-771f-45a2-9dbb-e610b0e73432}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="baekjoon2606.cpp">
@@ -92,6 +95,9 @@
     </ClCompile>
     <ClCompile Include="2644촌수계산.cpp">
       <Filter>소스 파일\BFS_DFS 필수문제</Filter>
+    </ClCompile>
+    <ClCompile Include="복습_1922_크루스칼.cpp">
+      <Filter>소스 파일\코테전복습</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
