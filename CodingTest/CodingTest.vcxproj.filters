@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\백준문제지모음\단기간상승">
       <UniqueIdentifier>{579ceeef-a22e-4b6e-ba9a-07619311e8e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\그리디">
+      <UniqueIdentifier>{2fc3c880-7e1b-485d-9867-b71f9528d587}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="baekjoon2606.cpp">
@@ -119,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="9456 스티커.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11047 동전.cpp">
+      <Filter>소스 파일\그리디</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
